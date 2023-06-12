@@ -1,0 +1,26 @@
+{
+  "OcvDnnDetector": {
+    "configFile": "deploy.prototxt",
+    "weightFile": "res10_300x300_ssd_iter_140000_fp16.caffemodel"
+  },
+  "DlibResnetDescriptor": {
+    "model": "dlib_face_recognition_resnet_model_v1.dat"
+  },
+  "DlibLandmarker": {
+    "model": "shape_predictor_5_face_landmarks.dat"
+  },
+  "DlibSvmClassifier": {
+    "classifiers": "classifiers.dat"
+  },
+  "Aligner": {
+    "faceWidth": 150,
+    "faceHeight": 150
+  },
+  "CentroidTracker": {
+    "maxDistance": 250
+  },
+  "testImage": "test.jpg",
+  "testVideo": "test.mp4",
+  "dataDirectory": "/home/prostoichelovek/projects/faceDetector/data",
+  "facesDatabase": "db.json"
+}

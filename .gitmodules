@@ -1,0 +1,6 @@
+[submodule "third-party/miniconf"]
+	path = third-party/miniconf
+	url = git@github.com:prostoiChelovek/miniconf.git
+[submodule "third-party/semimap"]
+	path = third-party/semimap
+	url = git@github.com:hogliux/semimap.git

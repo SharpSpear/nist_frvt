@@ -1,0 +1,9 @@
+target_sources(faces
+        PRIVATE
+        DlibResnetDescriptor.cpp
+        DlibSvmClassifier.cpp
+        PUBLIC
+        DlibResnetDescriptor.h
+        DlibSvmClassifier.h
+        DlibResnetSvmRecognizer.h
+        )
